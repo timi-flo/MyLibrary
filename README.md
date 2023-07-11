@@ -1,6 +1,7 @@
 # MyLibrary
-`could not find module ... for target 'x86_64-apple-ios-simulator' found arm64 arm64-apple-ios-simulator` 에러를 재현하기 위한 프로젝트
-`Undefined symbol: ...` 형태로 뜨기도 한다.
+`could not find module ... for target 'x86_64-apple-ios-simulator' found arm64 arm64-apple-ios-simulator` 에러 재현  
+(`Undefined symbol: ...` 형태의 에러가 뜨기도 함)
+
 ## 조건
 - Apple Silicon 디바이스, Xcode 14.3 미만 (Rosetta 로 실행중이지 않음)
 - SPM 으로 제공되는 라이브러리 사용
