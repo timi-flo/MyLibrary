@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  MyLibrary-Example
+//  Example-Watch Watch App
 //
-//  Created by wotjd on 7/12/23.
+//  Created by timi on 2023/07/12.
 //
 
 import SwiftUI
@@ -12,13 +12,15 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
+                .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
         .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
